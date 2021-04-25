@@ -2,16 +2,17 @@
     box-sizing: border-box;
 }
 
+
 body {
    margin: 0;
-   min-height: 100vh;
    display: flex;
+   min-height: 100vh;
    justify-content: center;
    align-items: center;
    background: url(bg.jpg);
    background-size: cover;
-   
 }
+
 
 .winner {
     color: green;
@@ -53,4 +54,9 @@ a {
     margin: 1rem;
     display: inline-block;
     color: red;
+}
+
+img {
+    display: block;
+    width: 100%;
 }
