@@ -4,17 +4,13 @@
 
 body {
    margin: 0;
-}
-
-.myContainer {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: url(bg.jpg);
-    background-size: cover;
-    padding: 2rem;
-
+   min-height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: url(bg.jpg);
+   background-size: cover;
+   
 }
 
 .winner {
@@ -52,3 +48,9 @@ body {
     width: 42%;
 }
 
+a {
+    text-decoration: none;
+    margin: 1rem;
+    display: inline-block;
+    color: red;
+}
